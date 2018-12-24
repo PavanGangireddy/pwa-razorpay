@@ -1,17 +1,15 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 
-import HeaderLink from './HeaderLink';
-
 /* eslint-disable react/prefer-stateless-function */
-class HomePage extends React.Component {
+class PaymentConfirmedPage extends React.Component {
   render() {
     return (
       <div>
-        <HeaderLink to="/payment">Pay 400/-</HeaderLink>
+        <span>PaymentConfirmedPage</span>
       </div>
     );
   }
 }
 
-export default HomePage;
+export default PaymentConfirmedPage;
